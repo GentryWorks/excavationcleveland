@@ -46,7 +46,7 @@ export const siteConfig = {
 
   // Analytics — leave empty string to disable
   ga4Id: "G-510N4CWHS6",
-  clarityId: "",
+  clarityId: "y0svfl1exo",
 
   // Social — replace when GBP and Facebook are created
   facebook: "",
