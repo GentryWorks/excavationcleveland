@@ -238,7 +238,8 @@ export default function HomePage() {
           </div>
 
           <h1 className="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-6">
-            <span style={{ color: "#C4883A" }}>Excavation Cleveland Co.</span>
+            Excavating Company in{" "}
+            <span style={{ color: "#C4883A" }}>Cleveland</span>
           </h1>
 
           <p className="text-white text-lg mb-10 leading-relaxed max-w-2xl mx-auto" style={{ opacity: 0.85 }}>
