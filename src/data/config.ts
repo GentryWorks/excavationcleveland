@@ -5,8 +5,8 @@
 export const siteConfig = {
   // Business info
   businessName: "Excavation Cleveland Co.",
-  phone: "(216) 555-0100",
-  phoneRaw: "2165550100",
+  phone: "(216) 415-6122",
+  phoneRaw: "2164156122",
 
   // Location
   city: "Cleveland",
