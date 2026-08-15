@@ -30,8 +30,8 @@ export const siteConfig = {
   ],
 
   // Domain
-  domain: "excavationcompanycleveland.com",
-  url: "https://www.excavationcompanycleveland.com",
+  domain: "excavationcleveland.com",
+  url: "https://www.excavationcleveland.com",
 
   // Business hours
   hours: {
