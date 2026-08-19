@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { siteConfig } from "@/data/config";
+import HeroFormEmbed from "@/components/HeroFormEmbed";
 import heroImg from "@/assets/excavator-hero-cleveland.webp";
 import fleetImg from "@/assets/excavation-fleet-equipment-cleveland.webp";
 import cardGrading from "@/assets/card-grading-cleveland.webp";
@@ -227,61 +228,38 @@ export default function HomePage() {
           aria-hidden="true"
         />
 
-        <div className="relative max-w-[1200px] mx-auto px-6 text-center">
-          <div className="mb-6 inline-block">
-            <span
-              className="text-white text-sm font-semibold px-4 py-2 rounded-full"
-              style={{ backgroundColor: "rgba(27,42,74,0.7)" }}
+        <div className="relative max-w-[1200px] mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10 items-center">
+          {/* Left — headline + CTA (2/3 width) */}
+          <div className="md:col-span-2">
+            <div className="mb-6 inline-block">
+              <span
+                className="text-white text-sm font-semibold px-4 py-2 rounded-full"
+                style={{ backgroundColor: "rgba(27,42,74,0.7)" }}
+              >
+                Residential &amp; Commercial
+              </span>
+            </div>
+
+            <h1 className="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-6">
+              Excavating Company in{" "}
+              <span style={{ color: "#C4883A" }}>Cleveland</span>
+            </h1>
+
+            <p className="text-white text-lg mb-10 leading-relaxed" style={{ opacity: 0.85 }}>
+              Licensed &amp; insured excavation contractor serving {siteConfig.city} and the surrounding suburbs. Your project gets done right — on time, written estimate upfront, no surprises. Grading, land clearing, residential excavation, pool excavation, gravel driveways, and demolition.
+            </p>
+
+            <Link
+              href={`tel:+1${siteConfig.phoneRaw}`}
+              className="inline-block text-white font-bold px-8 py-4 rounded text-xl transition-opacity hover:opacity-90 border-2 border-white"
+              style={{ backgroundColor: "#C4883A" }}
             >
-              Residential &amp; Commercial
-            </span>
+              Call Now {siteConfig.phone}
+            </Link>
           </div>
-
-          <h1 className="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-6">
-            Excavating Company in{" "}
-            <span style={{ color: "#C4883A" }}>Cleveland</span>
-          </h1>
-
-          <p className="text-white text-lg mb-10 leading-relaxed max-w-2xl mx-auto" style={{ opacity: 0.85 }}>
-            Licensed &amp; insured excavation contractor serving {siteConfig.city} and the surrounding suburbs. Grading, land clearing, residential excavation, pool excavation, gravel driveways, and demolition.
-          </p>
-
-          <Link
-            href={`tel:+1${siteConfig.phoneRaw}`}
-            className="inline-block text-white font-bold px-8 py-4 rounded text-xl transition-opacity hover:opacity-90 border-2 border-white"
-            style={{ backgroundColor: "#C4883A" }}
-          >
-            Call Now {siteConfig.phone}
-          </Link>
-        </div>
-      </section>
-
-      {/* Free Quote Form */}
-      <section className="py-16" style={{ backgroundColor: "#F5F5F5" }}>
-        <div className="max-w-[900px] mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-center mb-3" style={{ color: "#1B2A4A" }}>
-            <span style={{ color: "#C4883A" }}>↓</span>{" "}Get Your Free Quote{" "}<span style={{ color: "#C4883A" }}>↓</span>
-          </h2>
-          <p className="text-center text-base mb-8" style={{ color: "#6B7280" }}>
-            Fill out the form below and we&apos;ll follow up within 24 hours.
-          </p>
-          <div className="bg-white rounded-xl shadow-sm pt-6 pb-4">
-            <iframe
-              src={siteConfig.ghlFormUrl}
-              style={{ width: "100%", border: "none", borderRadius: "8px" }}
-              id={`inline-${siteConfig.ghlFormId}`}
-              data-layout="{&quot;id&quot;:&quot;INLINE&quot;}"
-              data-trigger-type="alwaysShow"
-              data-trigger-value=""
-              data-activation-type="alwaysActivated"
-              data-activation-value=""
-              data-deactivation-type="neverDeactivate"
-              data-deactivation-value=""
-              data-form-name="Excavating Company Cleveland"
-              data-layout-iframe-id={`inline-${siteConfig.ghlFormId}`}
-              data-form-id={siteConfig.ghlFormId}
-              title="Excavating Company Cleveland"
-            />
+          {/* Right — form with transparent background (1/3 width) */}
+          <div className="bg-transparent">
+            <HeroFormEmbed />
           </div>
         </div>
       </section>
@@ -367,43 +345,37 @@ export default function HomePage() {
                 name: "Grading & Sitework Cleveland, OH",
                 slug: "grading",
                 img: cardGrading,
-                tagline: "Precision Ground Prep for Any Build",
-                description: "Our grading contractors in Cleveland handle rough grading, finish grading, drainage correction, and building pad prep for residential and commercial sites across Northeast Ohio. Proper sitework is the foundation every project depends on — and we get it right before anything else goes in the ground.",
+                description: "Our grading contractors in Cleveland handle rough grading, finish grading, drainage correction, and building pad prep for residential and commercial sites across Cuyahoga County and the greater Northeast Ohio region. Cleveland's glacial clay is dense and holds water — the flat Lake Erie plain means poor natural drainage, and getting the grade right is essential to keeping water away from foundations.",
               },
               {
                 name: "Land Clearing Services Cleveland",
                 slug: "land-clearing",
                 img: cardLandClearing,
-                tagline: "From Overgrown to Ready-to-Build",
-                description: "Our land clearing service in Cleveland handles trees, brush, stumps, and debris of any size — from a single overgrown lot in Parma to multi-acre clearing in Medina County. We leave the site graded and ready to build on, with all material hauled off-site.",
+                description: "Our land clearing service in Cleveland handles trees, brush, stumps, and debris of any size — from a single overgrown lot in Parma to multi-acre clearing in Medina County. Northeast Ohio's glacial till and clay make stump removal more involved than in sandier soils. We leave the site graded and ready to build, with all material hauled off-site.",
               },
               {
                 name: "Gravel Driveway Installation Cleveland",
                 slug: "gravel-driveways",
                 img: cardGravel,
-                tagline: "Durable Driveways That Handle Ohio Winters",
-                description: "We install gravel driveways in Cleveland and surrounding areas built to handle Ohio's freeze-thaw cycles. Every job includes proper excavation, base stone, drainage grading, and compaction — so your driveway holds up year after year without washing out or rutting.",
+                description: "We install gravel driveways in Cleveland and surrounding areas built to handle Ohio's severe freeze-thaw cycles and the region's dense clay that heaves and settles with the seasons. Every job includes proper excavation, base stone, drainage grading, and compaction — so your driveway holds up through Northeast Ohio winters without heaving or rutting.",
               },
               {
                 name: "Pool Excavation Cleveland, OH",
                 slug: "pool-excavation",
                 img: cardPool,
-                tagline: "Accurate Digs That Keep Your Pool Project on Schedule",
-                description: "We provide pool excavation in Cleveland and Greater Northeast Ohio, working directly with pool contractors to deliver accurate, clean digs that stay on spec. Wrong dimensions or a soft bottom are expensive to fix after the shell goes in — we make sure that's never the issue.",
+                description: "We provide pool excavation in Cleveland and the greater metro, working directly with pool contractors to deliver accurate, clean digs that stay on spec. Northeast Ohio's glacial clay can be dense and high groundwater near Lake Erie requires planning in some areas. We verify utility locations through Ohio 811 before any dig begins.",
               },
               {
                 name: "Residential Excavation Cleveland",
                 slug: "residential-excavation",
                 img: cardResExcavation,
-                tagline: "Foundation Digs, Utility Trenches, and More",
-                description: "Our residential excavation contractors in Cleveland handle foundation digs, basement excavation, utility trenching, backfill, and compaction for homeowners and builders across Cuyahoga, Lorain, and Medina counties. We give your contractor a clean, properly prepped site to build from.",
+                description: "Our residential excavation contractors in Cleveland handle foundation digs, basement excavation, utility trenching, backfill, and compaction for homeowners and builders across Cuyahoga, Lake, Geauga, and Medina counties. Cleveland's glacial clay and extreme freeze-thaw cycles mean proper excavation depth and compaction are critical to foundations that stay stable through Ohio winters.",
               },
               {
                 name: "Residential Demolition Cleveland, OH",
                 slug: "demolition",
                 img: cardDemolition,
-                tagline: "Safe, Efficient Tear-Downs Done Right",
-                description: "Looking for a demolition contractor in Cleveland? We handle residential demolition for garages, sheds, decks, and small structures across Northeast Ohio. We disconnect utilities, take the structure down safely, haul everything off-site, and leave the footprint clean and ready for whatever comes next.",
+                description: "Looking for a demolition contractor in Cleveland? We handle residential demolition for garages, sheds, decks, and small structures across the greater Cleveland metro. We disconnect utilities, take the structure down safely, haul everything off-site, and leave the footprint clean and ready for whatever comes next. All demolition work is properly permitted through the City of Cleveland or applicable municipality.",
               },
             ].map((service, i) => (
               <div

@@ -201,7 +201,7 @@ export default function DemolitionPage() {
             Navigating the different permitting processes, regulations, and city codes across Cleveland and Cuyahoga County — as well as surrounding municipalities — requires a local expert. Excavation Cleveland Co. is fully licensed and insured to operate across the entire metro area.
           </p>
           <p className="text-sm leading-relaxed mb-6" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-            We proudly bring our precision demolition services to your neighborhood, including Cleveland, Parma, Lakewood, Euclid, Strongsville, Westlake, Mentor, Solon, Brunswick, and Medina.
+            We serve residential demolition clients across Greater Cleveland and Northeast Ohio — including Westlake, Strongsville, Mentor, Solon, Brunswick, Medina, and the surrounding communities throughout Cuyahoga County.
           </p>
 
           <h2 className="text-2xl md:text-3xl font-extrabold mb-6 mt-10" style={{ color: "#1B2A4A" }}>

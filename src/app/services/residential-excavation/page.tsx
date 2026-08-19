@@ -206,10 +206,10 @@ export default function ResidentialExcavationPage() {
                 Reliable Residential Excavation Services for Your Home Projects in <span style={{ color: "#C4883A" }}>Cleveland</span>
               </h2>
               <p className="text-sm leading-relaxed mb-4" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-                Excavation Cleveland Co. specializes in providing top-tier residential excavation services for homeowners throughout the Cleveland area. Whether you&apos;re building a new home, adding an extension, or installing a backyard feature, our team has the expertise to handle every aspect of your project with precision and care.
+                Excavation Cleveland Co. handles residential excavation for homeowners and builders throughout the Cleveland area. Whether you&apos;re digging a foundation for a new home, adding a basement under an existing structure, or running utility lines across a developed lot, our crew has the equipment and experience to do it right.
               </p>
               <p className="text-sm leading-relaxed" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-                As Cleveland continues to grow, so do the needs of residential property owners in both established neighborhoods and surrounding communities like Parma, Lakewood, Euclid, and Strongsville. At Excavation Cleveland Co., we&apos;re committed to delivering exceptional excavation services, no matter the size or scope of the job.
+                Northeast Ohio&apos;s glacial clay presents real challenges for residential excavation. It&apos;s dense, slow to drain, and prone to significant heaving with freeze-thaw cycles. Foundations dug into this soil require proper depth, clean walls, and careful compaction on the backfill — shortcuts show up within a few winters. We work with these conditions every day and give every contractor a site that&apos;s properly prepped from the start.
               </p>
             </div>
             <div className="flex-1">
@@ -270,7 +270,7 @@ export default function ResidentialExcavationPage() {
             Serving <span style={{ color: "#C4883A" }}>Cleveland</span> and Beyond
           </h2>
           <p className="text-sm leading-relaxed mb-6" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-            Excavation Cleveland Co. proudly serves homeowners across the Greater Cleveland area, including suburban communities and rural properties throughout Northeast Ohio. From Parma to Westlake, Mentor to Solon — no residential project is too big or small for our team. Request a free estimate to get started.
+            Excavation Cleveland Co. serves homeowners and builders across Greater Cleveland and Northeast Ohio — from Cuyahoga, Lake, and Geauga counties out to Medina and Lorain. Whether the project is in a dense urban neighborhood or a rural township, we provide a written estimate after a free site visit. Request a quote to get started.
           </p>
         </div>
       </section>

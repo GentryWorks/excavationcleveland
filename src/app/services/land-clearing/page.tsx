@@ -194,10 +194,10 @@ export default function LandClearingPage() {
                 Fast &amp; Efficient Land Clearing for Your Next <span style={{ color: "#C4883A" }}>Construction Project</span>
               </h2>
               <p className="text-sm leading-relaxed mb-4" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-                Excavation Cleveland Co. offers professional land clearing services for residential and commercial projects throughout the Cleveland area. Whether you&apos;re preparing a lot for new construction, expanding your property, or clearing space for landscaping, we provide efficient and reliable solutions tailored to your project.
+                Excavation Cleveland Co. handles land clearing for residential and commercial projects throughout the Cleveland area. Whether you&apos;re prepping a lot for new construction, removing an overgrown tree line, or clearing space ahead of a grading project, we bring the right equipment and leave the site ready for the next phase.
               </p>
               <p className="text-sm leading-relaxed" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-                From densely wooded lots to smaller spaces in suburban or rural areas, we have the equipment and expertise to handle projects of all sizes. Serving communities across Northeast Ohio — including Parma, Lakewood, Euclid, Strongsville, and beyond — Excavation Cleveland Co. is your trusted partner for thorough and environmentally conscious land clearing.
+                Northeast Ohio&apos;s glacial till and dense clay make stump and root ball removal more involved than in sandier soils. Root systems in this region run deep into compacted clay, and cutting corners on removal creates long-term settling problems under slabs and foundations. We remove stumps and root balls completely in areas that will be built on — and we leave every site graded and clean, with all material hauled off.
               </p>
             </div>
             <div className="flex-1">
@@ -253,7 +253,7 @@ export default function LandClearingPage() {
             Serving <span style={{ color: "#C4883A" }}>Cleveland</span> and Beyond
           </h2>
           <p className="text-sm leading-relaxed mb-6" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-            Excavation Cleveland Co. is proud to serve the Greater Cleveland area, including growing neighborhoods and rural communities like Westlake, Mentor, Solon, Brunswick, and Medina. No matter where your property is located or the size of the job, we&apos;re equipped to handle your land clearing needs. Request a free estimate to get started.
+            Excavation Cleveland Co. serves the Greater Cleveland area and surrounding Northeast Ohio communities — from Cuyahoga County out to Medina, Lorain, and Geauga counties. Whether your project is a suburban lot in Westlake or a multi-acre parcel in rural Medina County, we have the equipment and crew to handle it. Request a free estimate to get started.
           </p>
         </div>
       </section>

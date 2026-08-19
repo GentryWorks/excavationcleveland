@@ -191,17 +191,17 @@ export default function GravelDrivewaysPage() {
             Build the Perfect Gravel Driveway with Excavation <span style={{ color: "#C4883A" }}>Cleveland Co.</span>
           </h2>
           <p className="text-sm leading-relaxed mb-6" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-            If you&apos;re looking for a durable and visually appealing driveway solution, Excavation Cleveland Co. is your trusted partner for gravel driveway installations across the Cleveland area. As neighborhoods continue to grow and expand across Northeast Ohio, more homeowners and property developers in both urban areas and surrounding communities like Parma, Lakewood, and Euclid are turning to gravel driveways for their versatility and long-term value.
+            Excavation Cleveland Co. installs and repairs gravel driveways across the Cleveland area and surrounding Northeast Ohio communities. Cleveland&apos;s dense glacial clay and extreme freeze-thaw cycles make driveway installation more involved than in regions with lighter soils — clay heaves dramatically with the freeze-thaw cycle, and a driveway without proper base depth and drainage will show it within the first few winters.
           </p>
           <p className="text-sm leading-relaxed mb-6" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-            We specialize in custom gravel driveway installations designed to meet your specific needs. Whether you&apos;re upgrading an existing driveway or building a new one for a rural property or suburban home, we provide precision grading, proper drainage solutions, and professional finishes that enhance the functionality and appearance of your property.
+            We build every driveway to hold up in Northeast Ohio conditions. That means excavating deep enough to get below the frost influence zone, laying the right base stone for your soil type, and shaping proper drainage slope so water moves off the surface and away from the edge. Whether you&apos;re installing a new driveway on a rural property or repairing one that&apos;s been heaving for years, we provide a written estimate before any work begins.
           </p>
 
           <h2 className="text-2xl md:text-3xl font-extrabold mb-6 mt-10" style={{ color: "#1B2A4A" }}>
             Why Choose a <span style={{ color: "#C4883A" }}>Gravel Driveway?</span>
           </h2>
           <p className="text-sm leading-relaxed mb-6" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-            Gravel driveways are an excellent choice for properties across the Greater Cleveland area and surrounding communities, including Strongsville, Westlake, Mentor, Solon, Brunswick, and Medina. Here&apos;s why:
+            Gravel driveways are a proven choice for properties across Greater Cleveland and Northeast Ohio. Here&apos;s why:
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
             {[
@@ -248,7 +248,7 @@ export default function GravelDrivewaysPage() {
             Serving <span style={{ color: "#C4883A" }}>Cleveland</span> and Beyond
           </h2>
           <p className="text-sm leading-relaxed mb-6" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-            As Cleveland and the surrounding communities continue to grow, more properties in rural areas and developing neighborhoods need reliable gravel driveway installation and repair. Excavation Cleveland Co. proudly serves the entire Greater Cleveland area, including Parma, Lakewood, Euclid, Strongsville, Westlake, Mentor, Solon, Brunswick, and Medina. No matter the size of your project, we have the equipment and expertise to deliver a driveway that holds up for years to come. Request a free estimate to get started.
+            Excavation Cleveland Co. serves the entire Greater Cleveland area — including Westlake, Strongsville, Mentor, Solon, Brunswick, and Medina — and out into the surrounding Northeast Ohio counties. No matter the size or location of your project, we provide a written estimate after a free site visit. Request a quote to get started.
           </p>
         </div>
       </section>

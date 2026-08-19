@@ -112,11 +112,11 @@ export default function ContactPage() {
 
             {/* Right — GHL form */}
             <div className="lg:col-span-3">
-              <div className="bg-white rounded-xl shadow-sm pt-6 pb-4 px-0 md:pt-8 md:pb-6">
-                <h2 className="text-xl font-extrabold mb-1 px-4" style={{ color: "#1B2A4A" }}>
+              <div className="rounded-xl shadow-sm pt-6 pb-4 px-0 md:pt-8 md:pb-6" style={{ backgroundColor: "#1B2A4A" }}>
+                <h2 className="text-xl font-extrabold mb-1 px-4" style={{ color: "#ffffff" }}>
                   Request a Free Estimate
                 </h2>
-                <p className="text-sm mb-6 px-4" style={{ color: "#6B7280" }}>
+                <p className="text-sm mb-6 px-4" style={{ color: "rgba(255,255,255,0.75)" }}>
                   Fill out the form below and we&apos;ll follow up within 24 hours.
                 </p>
                 <iframe

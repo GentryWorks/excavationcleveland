@@ -312,7 +312,7 @@ export default function PoolExcavationPage() {
             Permits &amp; <span style={{ color: "#C4883A" }}>Compliance</span>
           </h2>
           <p className="text-sm leading-relaxed" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-            Most Cleveland-area cities require a permit for pool removal — including Cuyahoga County, Parma, Lakewood, Euclid, and Strongsville. Requirements differ by municipality, so don&apos;t assume what applied to a neighbor applies to you. We help you understand what&apos;s required and coordinate with your contractor so nothing holds up the project. For new pool excavation, permits are typically pulled by your pool builder. We work directly with them to make sure our dig aligns with the approved plans.
+            Most Cleveland-area cities require a permit for pool removal — requirements differ by municipality across Cuyahoga County and surrounding communities, so don&apos;t assume what applied to a neighbor applies to you. We help you understand what&apos;s required and coordinate with your contractor so nothing holds up the project. For new pool excavation, permits are typically pulled by your pool builder. We work directly with them to make sure our dig aligns with the approved plans.
           </p>
         </div>
       </section>

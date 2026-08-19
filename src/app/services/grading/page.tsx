@@ -191,10 +191,10 @@ export default function GradingPage() {
             Expert Grading and Sitework Services in <span style={{ color: "#C4883A" }}>Cleveland</span> for Residential and Commercial Projects
           </h2>
           <p className="text-sm leading-relaxed mb-6" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-            Excavation Cleveland Co. is your go-to provider for professional grading and sitework services across the Cleveland area. Whether you&apos;re preparing a small residential lot or a large-scale commercial development, our team delivers precise, reliable solutions tailored to your project&apos;s unique needs.
+            Excavation Cleveland Co. provides professional grading and sitework services for residential and commercial projects across the Cleveland area. Whether you&apos;re prepping a building pad for new construction or correcting drainage on an established property, our crew delivers precise, reliable results tailored to your site.
           </p>
           <p className="text-sm leading-relaxed mb-6" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-            With Cleveland and the surrounding communities continuing to grow, property owners in both established neighborhoods and developing areas — including Parma, Lakewood, Euclid, Strongsville, and beyond — trust Excavation Cleveland Co. to lay the groundwork for success. From creating level surfaces for new construction to optimizing drainage systems, no job is too big or too small for our experienced team.
+            Cleveland sits on the Lake Erie coastal plain — flat terrain underlain by glacial clay that drains poorly and compacts in ways that shift with wet and dry seasons. The region also experiences some of the most severe freeze-thaw cycles in the country, with 150 or more days below freezing annually. That combination makes proper grading critical here. Water that isn&apos;t directed away from a foundation doesn&apos;t have far to go, and clay that freezes and heaves each winter will expose any grading shortcut in the first few years. We work with those conditions, not against them.
           </p>
 
           <h2 className="text-2xl md:text-3xl font-extrabold mb-6 mt-10" style={{ color: "#1B2A4A" }}>
@@ -248,7 +248,7 @@ export default function GradingPage() {
             Serving <span style={{ color: "#C4883A" }}>Cleveland</span> and Beyond
           </h2>
           <p className="text-sm leading-relaxed mb-6" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-            Excavation Cleveland Co. proudly serves both residential and commercial clients throughout the Greater Cleveland area. Our services extend to surrounding communities including Westlake, Mentor, Solon, Brunswick, and Medina, ensuring that no project is out of reach. Request a free estimate to get started.
+            Excavation Cleveland Co. serves residential and commercial clients throughout Greater Cleveland and Northeast Ohio — from Cuyahoga County out to Medina, Geauga, Lake, and Lorain counties. Whether you need drainage correction on a residential lot in Westlake or building pad prep on a commercial site near Mentor, we bring the same equipment, process, and written estimate to every job. Request a free estimate to get started.
           </p>
         </div>
       </section>
