@@ -41,8 +41,8 @@ export const siteConfig = {
   },
 
   // GHL Form
-  ghlFormId: "4TxailVPQC6Za5YmwoJT",
-  ghlFormUrl: "https://api.leadconnectorhq.com/widget/form/4TxailVPQC6Za5YmwoJT",
+  ghlFormId: "OJD2PV4Z6oUbVUqKvQct",
+  ghlFormUrl: "https://api.leadconnectorhq.com/widget/form/OJD2PV4Z6oUbVUqKvQct",
 
   // Analytics — leave empty string to disable
   ga4Id: "G-510N4CWHS6",
